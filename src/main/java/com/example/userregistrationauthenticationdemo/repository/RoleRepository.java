@@ -1,4 +1,7 @@
 package com.example.userregistrationauthenticationdemo.repository;
 
-public interface RoleRepository {
+import com.example.userregistrationauthenticationdemo.entity.Role;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface RoleRepository extends JpaRepository<Role, Long> {
 }
