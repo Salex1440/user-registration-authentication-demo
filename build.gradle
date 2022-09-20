@@ -25,6 +25,7 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok:1.18.24'
 	testCompileOnly 'org.projectlombok:lombok:1.18.24'
 	testAnnotationProcessor 'org.projectlombok:lombok:1.18.24'
+	implementation 'org.hibernate:hibernate-validator:8.0.0.Final'
 }
 
 tasks.named('test') {
